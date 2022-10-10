@@ -1,0 +1,14 @@
+.hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .75s ease-in-out;
+	transition: .75s ease-in-out;
+    display:inline-block;
+}
+.hover img:hover {
+	-webkit-transform: scale(1.15);
+	transform: scale(1.3);    
+}
+.img{
+    overflow: hidden;
+}
